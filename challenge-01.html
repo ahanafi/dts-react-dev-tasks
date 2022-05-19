@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DTS React | Challenge 01</title>
+</head>
+<style>
+  *{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: #ccc;
+  }
+
+  #main-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  header{
+    padding:3rem;
+    background:#189AB4;
+    color:#fff;
+    font-weight: bold;
+  }
+  .content{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+  }
+  nav {
+    background: #05445E;
+    padding:2rem;
+  }
+  ul {
+    
+    display: inline-flex;
+  }
+  li {
+    list-style: none;
+  }
+  li a{
+    background: #fff;
+    padding:.75rem 1rem;
+    margin-left: .5rem;
+  }
+  main{
+    padding:1.5rem;
+    background: #D4F1F4;
+    height: 69vh;
+  }
+  img{
+    border-radius: 50%;
+    box-shadow: 5px 4px 3px #bcbcbc;
+  }
+  footer{
+    padding:1.5rem;
+    background: #189AB4;
+  }
+  footer a{
+    color: #fff;
+  }
+</style>
+<body>
+  <div id="main-content">
+    <header>
+      <h1>Hanafi's Page</h1>
+    </header>
+    <div id="content">
+      <nav>
+        <ul>
+          <li><a href="#">YouTube</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Github</a></li>
+        </ul>
+      </nav>
+      <main>
+        <h2>Welcom to my Simple Website!</h2>
+        <br>
+        <p>
+          Here are my picture profile:
+        </p>
+        <br>
+        <img src="https://avatars.githubusercontent.com/u/22043736?s=400&u=913a02d10e1ded5db0c548d0a01ec7dd1c1644ca&v=4" alt="My Profile picture">
+        <br>
+        <br>
+        <h3>Ahmad Hanafi</h3>
+        <br>
+        <h4>ahanafi.id@gmail.com</h4>
+      </main>
+    </div>
+    <footer>
+      <a href="#">&copy; 2022 - Ahmad Hanafi</a>
+    </footer>
+  </div>
+</body>
+</html>
